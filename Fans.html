@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Fans.css">
-    <script src="javaScript.js"></script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Homework Task 1-3</title>
+    <title>Homework Task</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- <nav>
@@ -65,7 +67,7 @@
              </div>
          </div> 
        </nav> 
-
+    </div>
 
 
 <header>
@@ -84,9 +86,66 @@
       </svg>
 </header>
 
-<content>
+<!-- <content> -->
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="text-center">
+                Comment
+            </h2>
+        </div>
+        <div class="col-lg-6">
+            <div id="comment-field"></div>
+        </div>
+        <div class="col-lg-6">
+                <form>
+                        <div class="form-group">
+                          <label for="comment-name">Name:</label>
+                          <input type="email" class="form-control" id="comment-name"  placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                          <label for="comment-body">Comment:</label>
+                          <textarea type="password" class="form-control" id="comment-body" placeholder="comment"></textarea>
+                        </div>
+                        <div class="form-group form-check text-right">
+                                <button type="submit" id="comment-add" class="btn btn-primary">add Comment</button>
+                        </div>
+                      </form>
+        </div>
+    </div>
+</div>
 
-<h1>Зверрнення фанів</h1>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="javaScript.js"></script>
+
+
+
+
+
+
+
+
+
+
+  <!-- <input placeholder="Enter some text" name="name"/>
+<p id="log1"></p>
+<script>
+    const input = document.querySelector('input');
+const log1 = document.getElementById('log1');
+
+input.addEventListener('change', updateValue);
+
+function updateValue(e) {
+  log1.textContent = e.target.value;
+}
+
+</script>
+<p id="log"></p> -->
+<!-- <h1>Зверрнення фанів</h1>
 
 <div class="h2">
 <h2>1) Я дуже чекаю зустрічі з кожним з вас ви круті! </h2>
@@ -95,7 +154,7 @@
 <div class="h3t1">
 <h3>10.12.2021</h3>
 </div>
-<h4>Юля Грицина</h4> -->
+<h4>Юля Грицина</h4>
 
 <div class="h2">
 <h2>2) У мене є невеличке прохання, не забувайте записувати відео, а потім завантажувати їх в інстаграм, всім дуже цікаво як ви танцюєте. </h2>
@@ -106,27 +165,67 @@
 </div>
 <div class="h4">
 <h4>Анна Дуда</h4>
-</div>
+</div> -->
 
-    <form class="decor">
+    <!-- <form class="decor" id="myForm">
         <div class="form-left-decoration"></div>
         <div class="form-right-decoration"></div>
         <div class="circle"></div>
-        <div class="form-inner">
-        <h3>Напишіть нам</h3>
-        <textarea placeholder="Написати звернення..." rows="3"></textarea>
-        <input type="submit" value="Відправити">
-        </div>
-        </form>
-</content>
+        <div class="form-inner" id="">
+        <h3>Напишіть нам</h3> -->
+        <!-- <textarea placeholder="Написати звернення..." rows="3"></textarea> -->
+        <!-- <input type="text" name="fname">
+        <input type="submit" value="Відправити"> -->
+
+        <!-- <input type="text" placeholder="Enter some text"/>
+
+<script>
+    const input = document.querySelector('input');
+const log = document.getElementById('log');
+
+input.addEventListener('change', updateValue);
+
+function updateValue(e) {
+  log.textContent = e.target.value;
+}
+
+</script> -->
+    
+      <!-- <script>
+        document.getElementById("myForm").onsubmit = function() {my1Function()};
+        
+        function my1Function() {
+          // alert("nrhtbgrvf");
+          
+        }
+        </script> -->
+        <!-- </div>
+        </form> -->
+<!-- </content> -->
+
+<!-- ----------- -->
+<!-- <form id="myForm" >
+  Enter name: <input type="text" name="fname">
+  <input type="submit" value="Submit">
+</form> -->
+
+<!-- <script>
+document.getElementById("myForm").onsubmit = function() {myFunction()};
+
+function myFunction() {
+  alert("The form was submitted");
+}
+</script> -->
 
 
-      
-<div class="container2">
+
+<!-- ----------- -->
+<!-- <script src="javaScript.js"></script> -->
+<!-- <div class="container2">
     <section style="height:10px;"></section>
     <div class="row" style="text-align:center;">
     </div>
-    <!----------- Footer ------------>
+    --------- Footer ----------
     <footer class="footer-bs">
     <div class="row">
     <div class="col-md-3 footer-brand animated fadeInLeft">
@@ -136,8 +235,8 @@
     </div>
     </div>
     </footer>
-   
-  </div>
-</div>
+
+  </div> -->
+<!-- </div> -->
 </body>
 </html>

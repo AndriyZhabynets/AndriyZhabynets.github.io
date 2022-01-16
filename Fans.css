@@ -368,7 +368,7 @@ h4{
 
 /* ----------------------------------------- */
   
-  .footer-bs {
+  /* .footer-bs {
     block-size: 90pt;
     background-color: #333;
     padding:  20px 40px;
@@ -378,7 +378,7 @@ h4{
     border-bottom-left-radius: 6px;
     font-size: 9pt;
     font-family: Arial;
-  }
+  } */
 
   @media (min-width: 768px) {
     .footer-bs { border-left:solid 1px rgba(255,255,255,0.10); }
@@ -443,4 +443,8 @@ h4{
       display: block;
       text-align: left;
     }
+  }
+
+  p{
+    color: red;
   }
